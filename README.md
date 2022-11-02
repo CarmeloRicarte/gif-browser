@@ -1,1 +1,1 @@
-#A React App created for search gifs
+A React App created for search gifs
