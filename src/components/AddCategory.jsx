@@ -10,6 +10,12 @@ export const AddCategory = ({ onNewCategory }) => {
     setInputValue(target.value);
   };
 
+  /**
+   * The function onSubmit calls the function onNewCategory, which is passed in as a prop from the
+   * parent component.
+   * The function onNewCategory is passed the value of the input field.
+   * @returns The input value is being returned.
+   */
   const onSubmit = (event) => {
     event.preventDefault();
     const newInputValue = inputValue.trim();

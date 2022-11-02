@@ -1,9 +1,14 @@
 import { useState } from "react";
 import { AddCategory } from "./components/AddCategory";
+import { GifGrid } from "./components/GifGrid";
 
 export const GifBrowserApp = () => {
-  const [categories, setCategories] = useState(["Fútbol", "F1"]);
+  const [categories, setCategories] = useState([]);
 
+  /**
+   * If the newCategory is not already in the categories array, add it to the beginning of the array.
+   * @returns The newCategory is being returned.
+   */
   const onAddCategory = (newCategory) => {
     if (categories.includes(newCategory)) return;
 
@@ -16,11 +21,9 @@ export const GifBrowserApp = () => {
 
       <AddCategory onNewCategory={onAddCategory} />
 
-      <ol>
-        {categories.map((category) => (
-          <li key={category}>{category}</li>
-        ))}
-      </ol>
+      {categories.map((category) => (
+        <GifGrid key={category} category={category} />
+      ))}
     </>
   );
 };
