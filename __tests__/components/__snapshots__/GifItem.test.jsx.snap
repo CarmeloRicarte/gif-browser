@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests of <GifItem /> should match with snapshot 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <img
+      alt="Dragon Ball Ultra Instinct GIF by Toei Animation"
+      src="https://media3.giphy.com/media/19JSJ5ucu91R5D7a3w/giphy.gif?cid=947a36cfqz7o481dq7dqg783yfc0888b1zif61sx5u761lrp&rid=giphy.gif&ct=g"
+    />
+    <p>
+      Dragon Ball Ultra Instinct GIF by Toei Animation
+    </p>
+  </div>
+</div>
+`;
