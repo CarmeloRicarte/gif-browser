@@ -45,7 +45,6 @@ describe("Test of <AddCategory />", () => {
 
     fireEvent.change(input, { target: { value: inputValue } });
     fireEvent.submit(form);
-    screen.debug();
     expect(onNewCategory).not.toHaveBeenCalled();
   });
 });
