@@ -13,7 +13,8 @@
     "preview": "vite preview",
     "test": "vitest",
     "test:ui": "vitest --ui",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "prop-types": "^15.8.1",
@@ -27,6 +28,7 @@
     "@types/react-dom": "^18.0.7",
     "@vitejs/plugin-react": "^2.2.0",
     "@vitest/coverage-c8": "^0.24.5",
+    "gh-pages": "^4.0.0",
     "jsdom": "^20.0.2",
     "vite": "^3.2.0",
     "vitest": "^0.24.5"
