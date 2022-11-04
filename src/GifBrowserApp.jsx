@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { AddCategory } from "./components";
 import { GifGrid } from "./components";
+import GiphyImage from "./assets/giphy.gif";
 
 export const GifBrowserApp = () => {
   const [categories, setCategories] = useState([]);
@@ -18,7 +19,7 @@ export const GifBrowserApp = () => {
   return (
     <>
       <h1>Gif Browser</h1>
-      <img src="public/assets/giphy.gif" alt="Powered by Giphy" />
+      <img src={GiphyImage} alt="Powered by Giphy" />
       <AddCategory onNewCategory={onAddCategory} />
 
       {categories.map((category) => (
