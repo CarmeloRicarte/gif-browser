@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1
 
-exports[`Test of <GifBrowserApp /> should match with the snapshot 1`] = `
+exports[`Test of <GifBrowserApp /> > should match with the snapshot 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -10,7 +10,7 @@ exports[`Test of <GifBrowserApp /> should match with the snapshot 1`] = `
       </h1>
       <img
         alt="Powered by Giphy"
-        src="./../../public/assets/giphy.gif"
+        src="/src/assets/giphy.gif"
       />
       <form
         aria-label="form"
@@ -30,7 +30,7 @@ exports[`Test of <GifBrowserApp /> should match with the snapshot 1`] = `
     </h1>
     <img
       alt="Powered by Giphy"
-      src="./../../public/assets/giphy.gif"
+      src="/src/assets/giphy.gif"
     />
     <form
       aria-label="form"

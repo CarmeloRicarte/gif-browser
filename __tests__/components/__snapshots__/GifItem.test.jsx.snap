@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1
 
-exports[`Tests of <GifItem /> should match with snapshot 1`] = `
+exports[`Tests of <GifItem /> > should match with snapshot 1`] = `
 <div>
   <div
     class="card"

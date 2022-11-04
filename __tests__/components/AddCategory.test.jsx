@@ -19,7 +19,7 @@ describe("Test of <AddCategory />", () => {
 
   test("should call onNewCategory if the input has a value", () => {
     const inputValue = "Ibai";
-    const onNewCategory = jest.fn(); // mock for onNewCategory
+    const onNewCategory = vi.fn(); // mock for onNewCategory
 
     render(<AddCategory onNewCategory={onNewCategory} />);
 
@@ -36,7 +36,7 @@ describe("Test of <AddCategory />", () => {
 
   test("should not call onNewCategory if the input hasn't less or equal one character", () => {
     const inputValue = "a";
-    const onNewCategory = jest.fn(); // mock for onNewCategory
+    const onNewCategory = vi.fn(); // mock for onNewCategory
 
     render(<AddCategory onNewCategory={onNewCategory} />);
 

@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1
 
-exports[`Test of <AddCategory /> should match with snapshot 1`] = `
+exports[`Test of <AddCategory /> > should match with snapshot 1`] = `
 <div>
   <form
     aria-label="form"

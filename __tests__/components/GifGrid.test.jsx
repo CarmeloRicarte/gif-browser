@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import { useFetchGifs } from "../../src/hooks/useFetchGifs";
 import { GifGrid } from "./../../src/components/GifGrid";
 
-jest.mock("../../src/hooks/useFetchGifs"); // do a mock of useFetchGifs
+vi.mock("../../src/hooks/useFetchGifs"); // do a mock of useFetchGifs
 describe("Tests of <GifGrid />", () => {
   const category = "Ibai";
 
