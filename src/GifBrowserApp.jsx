@@ -18,7 +18,7 @@ export const GifBrowserApp = () => {
   return (
     <>
       <h1>Gif Browser</h1>
-
+      <img src="./../../public/assets/giphy.gif" alt="Powered by Giphy" />
       <AddCategory onNewCategory={onAddCategory} />
 
       {categories.map((category) => (

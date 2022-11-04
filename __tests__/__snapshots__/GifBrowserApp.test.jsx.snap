@@ -8,6 +8,10 @@ exports[`Test of <GifBrowserApp /> should match with the snapshot 1`] = `
       <h1>
         Gif Browser
       </h1>
+      <img
+        alt="Powered by Giphy"
+        src="./../../public/assets/giphy.gif"
+      />
       <form
         aria-label="form"
       >
@@ -24,6 +28,10 @@ exports[`Test of <GifBrowserApp /> should match with the snapshot 1`] = `
     <h1>
       Gif Browser
     </h1>
+    <img
+      alt="Powered by Giphy"
+      src="./../../public/assets/giphy.gif"
+    />
     <form
       aria-label="form"
     >
